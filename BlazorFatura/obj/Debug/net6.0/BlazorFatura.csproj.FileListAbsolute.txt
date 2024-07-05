@@ -67,15 +67,3 @@ C:\Users\Thiago Marcelino\source\repos\BlazorFatura\BlazorFatura\obj\Debug\net6.
 C:\Users\Thiago Marcelino\source\repos\BlazorFatura\BlazorFatura\obj\Debug\net6.0\BlazorFatura.pdb
 C:\Users\Thiago Marcelino\source\repos\BlazorFatura\BlazorFatura\obj\Debug\net6.0\BlazorFatura.genruntimeconfig.cache
 C:\Users\Thiago Marcelino\source\repos\BlazorFatura\BlazorFatura\obj\Debug\net6.0\ref\BlazorFatura.dll
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.csproj.AssemblyReference.cache
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.AssemblyInfoInputs.cache
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.AssemblyInfo.cs
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.csproj.CoreCompileInputs.cache
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.RazorAssemblyInfo.cache
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.RazorAssemblyInfo.cs
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.sourcelink.json
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.dll
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\refint\BlazorFatura.dll
-C:\Users\Thiago Marcelino\source\gitRepos\BlazorFaturas\BlazorFatura\obj\Debug\net6.0\BlazorFatura.pdb
