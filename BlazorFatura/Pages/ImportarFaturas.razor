@@ -18,14 +18,27 @@
 }
 
 @code {
-    private string mensagemImportacao;
+    private string mensagemImportacao=string.Empty;
 
     private async Task btnImportarFaturas()
     {
         try
         {
             var result = await xmlService.ImportarFaturas();
-            mensagemImportacao = result ? "Faturas importadas com sucesso." : "Ocorreram erros ao importar faturas.";
+
+            foreach (var resultItem in result)
+            {
+                if (resultItem.Value && mensagemImportacao.Contains("Faturas"))
+                {
+                    mensagemImportacao = "Faturas importadas com sucesso.";
+                }
+                else if (!resultItem.Value && !mensagemImportacao.Contains("Ocorreram"))
+                {
+                    mensagemImportacao = "Ocorreram erros ao importar fatura: ";
+                }
+
+                mensagemImportacao += resultItem.Value ? " " : $" {resultItem.Key}{Environment.NewLine} ";
+            }
         }
         catch (Exception ex)
         {
