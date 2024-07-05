@@ -22,34 +22,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXEFwcC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/EditarFatura.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXEVkaXRhckZhdHVyYS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/Faturas.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXEZhdHVyYXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/ImportarFaturas.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXEltcG9ydGFyRmF0dXJhcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXEluZGV4LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFNoYXJlZFxTdXJ2ZXlQcm9tcHQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXF9JbXBvcnRzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/Pages/EditarFatura.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyRmF0dXJhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,14 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFNoYXJlZFxNYWluTGF5b3V0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-xmlv05dk4e
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFNoYXJlZFxOYXZNZW51LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-wmmjky0b6w
-
 [C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3g0kbnlaq4
@@ -89,18 +53,6 @@ build_metadata.AdditionalFiles.CssScope = b-3g0kbnlaq4
 [C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-u41684t2j7
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXF9Ib3N0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/BlazorFatura/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Qmxhem9yRmF0dXJhXFBhZ2VzXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thiago Marcelino/source/gitRepos/BlazorFaturas/BlazorFatura/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s

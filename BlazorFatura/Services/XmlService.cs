@@ -24,10 +24,12 @@ namespace BlazorFatura.Services
             _xmlMovedPath = settings.Value.XmlOutputFolder;
         }
 
-        public async Task<bool> ImportarFaturas()
+        public async Task<Dictionary<string, bool>> ImportarFaturas()
         {
+            var resultParse = new Dictionary<string, bool>();
+
             var arquivos = Directory.GetFiles(_xmlInputPath, "*.xml");
-            var arquivosComErro = new List<string>();
+            //var arquivosComErro = new List<string>();
 
             foreach (var arquivo in arquivos)
             {
@@ -50,22 +52,25 @@ namespace BlazorFatura.Services
                     var fileName = Path.GetFileName(arquivo);
                     var destinationPath = Path.Combine(_xmlMovedPath, fileName);
                     File.Move(arquivo, destinationPath);
+                    resultParse.Add(Path.GetFileName(arquivo), true);
                 }
                 catch (Exception ex)
                 {
-                    arquivosComErro.Add(Path.GetFileName(arquivo));
+                    //arquivosComErro.Add(Path.GetFileName(arquivo));
+                    resultParse.Add(Path.GetFileName(arquivo),false);
+                    //resultParse.Add(arquivo,false);
                     // Pode logar ou tratar de outra forma o erro individual
                 }
             }
 
-            if (arquivosComErro.Any())
-            {
+            if (resultParse.Any()) 
+            { 
                 // Se houver arquivos com erro, não movemos nenhum arquivo
-                return false;
+                return resultParse;
             }
             else
             {
-                return true;
+                return resultParse;
             }
         }
     }
