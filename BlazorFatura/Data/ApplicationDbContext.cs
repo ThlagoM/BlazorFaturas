@@ -17,6 +17,7 @@ namespace BlazorFatura.Data
             modelBuilder.Entity<Fatura>()
                 .HasKey(f => f.idFatura); // Define a chave primária
         }
+
     }
 
 

@@ -29,49 +29,56 @@ namespace BlazorFatura.Services
             var resultParse = new Dictionary<string, bool>();
 
             var arquivos = Directory.GetFiles(_xmlInputPath, "*.xml");
-            //var arquivosComErro = new List<string>();
 
             foreach (var arquivo in arquivos)
             {
                 try
                 {
                     var xmlDoc = XDocument.Load(arquivo);
+                    var nomeFornecedor = xmlDoc.Root.Element("nomeFornecedor")?.Value;
+                    var numeroFatura = xmlDoc.Root.Element("numeroFatura")?.Value;
+                    var dataDocumento = DateTime.Parse(xmlDoc.Root.Element("dataDocumento")?.Value);
+                    var valorTotal = decimal.Parse(xmlDoc.Root.Element("valorTotal")?.Value);
+
+                    var pdfFileName = Path.ChangeExtension(arquivo, ".pdf");
+                    byte[] pdfFileBytes = null;
+
+                    if (File.Exists(pdfFileName))
+                    {
+                        pdfFileBytes = await File.ReadAllBytesAsync(pdfFileName);
+
+                        // Move o arquivo PDF para a pasta de destino
+                        var pdfDestinationPath = Path.Combine(_xmlMovedPath, Path.GetFileName(pdfFileName));
+                        File.Move(pdfFileName, pdfDestinationPath);
+                    }
+
                     var fatura = new Fatura
                     {
-                        NomeFornecedor = xmlDoc.Root.Element("nomeFornecedor")?.Value,
-                        NumeroFatura = xmlDoc.Root.Element("numeroFatura")?.Value,
-                        DataDocumento = DateTime.Parse(xmlDoc.Root.Element("dataDocumento")?.Value),
-                        ValorTotal = decimal.Parse(xmlDoc.Root.Element("valorTotal")?.Value),
-                        Ativo = true
+                        NomeFornecedor = nomeFornecedor,
+                        NumeroFatura = numeroFatura,
+                        DataDocumento = dataDocumento,
+                        ValorTotal = valorTotal,
+                        Ativo = true,
+                        OriginalFileName = Path.GetFileName(pdfFileName),
+                        OriginalFileNameBytes = pdfFileBytes
                     };
 
                     _context.Faturas.Add(fatura);
                     await _context.SaveChangesAsync();
 
-                    // Move o arquivo XML para a pasta 'Inseridos'
-                    var fileName = Path.GetFileName(arquivo);
-                    var destinationPath = Path.Combine(_xmlMovedPath, fileName);
-                    File.Move(arquivo, destinationPath);
+                    // Move o arquivo XML para a pasta de destino
+                    var xmlDestinationPath = Path.Combine(_xmlMovedPath, Path.GetFileName(arquivo));
+                    File.Move(arquivo, xmlDestinationPath);
+
                     resultParse.Add(Path.GetFileName(arquivo), true);
                 }
                 catch (Exception ex)
                 {
-                    //arquivosComErro.Add(Path.GetFileName(arquivo));
-                    resultParse.Add(Path.GetFileName(arquivo),false);
-                    //resultParse.Add(arquivo,false);
-                    // Pode logar ou tratar de outra forma o erro individual
+                    resultParse.Add(Path.GetFileName(arquivo), false);
                 }
             }
 
-            if (resultParse.Any()) 
-            { 
-                // Se houver arquivos com erro, não movemos nenhum arquivo
-                return resultParse;
-            }
-            else
-            {
-                return resultParse;
-            }
+            return resultParse;
         }
     }
 }

@@ -3,7 +3,6 @@
 @using BlazorFatura.Models
 @using BlazorFatura.Services
 @using Microsoft.Extensions.Configuration
-@using System.IO
 @inject IConfiguration Configuration
 @inject ApplicationDbContext _context
 @inject XmlService xmlService
@@ -18,26 +17,24 @@
 }
 
 @code {
-    private string mensagemImportacao=string.Empty;
+    private string mensagemImportacao = string.Empty;
 
     private async Task btnImportarFaturas()
     {
         try
         {
             var result = await xmlService.ImportarFaturas();
+            var sucesso = result.Where(r => r.Value).Select(r => r.Key).ToList();
+            var falhas = result.Where(r => !r.Value).Select(r => r.Key).ToList();
 
-            foreach (var resultItem in result)
+            if (sucesso.Any())
             {
-                if (resultItem.Value && mensagemImportacao.Contains("Faturas"))
-                {
-                    mensagemImportacao = "Faturas importadas com sucesso.";
-                }
-                else if (!resultItem.Value && !mensagemImportacao.Contains("Ocorreram"))
-                {
-                    mensagemImportacao = "Ocorreram erros ao importar fatura: ";
-                }
+                mensagemImportacao = "Faturas importadas com sucesso: " + string.Join(", ", sucesso) + ".";
+            }
 
-                mensagemImportacao += resultItem.Value ? " " : $" {resultItem.Key}{Environment.NewLine} ";
+            if (falhas.Any())
+            {
+                mensagemImportacao += "\nOcorreram erros ao importar as seguintes faturas: " + string.Join(", ", falhas) + ".";
             }
         }
         catch (Exception ex)

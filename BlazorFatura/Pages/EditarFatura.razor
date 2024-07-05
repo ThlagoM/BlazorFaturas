@@ -6,43 +6,69 @@
 
 <h3>Editar Fatura</h3>
 
-<EditForm Model="fatura" OnValidSubmit="SalvarFatura">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+@if (fatura == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-6">
+            <EditForm Model="fatura" OnValidSubmit="SalvarFatura">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
 
-    <div>
-        <label>Nome Fornecedor</label>
-        <InputText @bind-Value="fatura.NomeFornecedor" />
-    </div>
-    <div>
-        <label>Número Fatura</label>
-        <InputText @bind-Value="fatura.NumeroFatura" />
-    </div>
-    <div>
-        <label>Data Documento</label>
-        <InputDate @bind-Value="fatura.DataDocumento" />
-    </div>
-    <div>
-        <label>Valor Total</label>
-        <InputNumber @bind-Value="fatura.ValorTotal" />
-    </div>
-    <div>
-        <label>Ativo</label>
-        <InputCheckbox @bind-Value="fatura.Ativo" />
-    </div>
+                <div class="mb-3">
+                    <label class="form-label">Nome Fornecedor</label>
+                    <InputText @bind-Value="fatura.NomeFornecedor" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Número Fatura</label>
+                    <InputText @bind-Value="fatura.NumeroFatura" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Data Documento</label>
+                    <InputDate @bind-Value="fatura.DataDocumento" class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Valor Total</label>
+                    <InputNumber @bind-Value="fatura.ValorTotal" class="form-control" />
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label">Ativo</label>
+                    <InputCheckbox @bind-Value="fatura.Ativo" class="form-check-input" />
+                </div>
 
-    <button type="submit">Salvar</button>
-</EditForm>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button type="submit" class="btn btn-success">Salvar</button>
+                    <button @onclick="Voltar" class="btn btn-secondary ms-2">Voltar</button>
+                </div>
+            </EditForm>
+        </div>
+        <div class="col-md-6">
+            @if (fatura.OriginalFileNameBytes != null)
+            {
+                <h4>PDF Anexado</h4>
+                <embed src="@pdfBase64String" type="application/pdf" width="100%" height="600px" />
+            }
+        </div>
+    </div>
+}
 
 @code {
     [Parameter]
     public int id { get; set; }
 
-    private Fatura fatura = new Fatura();
+    private Fatura fatura;
+    private string pdfBase64String;
 
     protected override async Task OnInitializedAsync()
     {
         fatura = await _context.Faturas.FindAsync(id);
+        if (fatura != null && fatura.OriginalFileNameBytes != null)
+        {
+            pdfBase64String = $"data:application/pdf;base64,{Convert.ToBase64String(fatura.OriginalFileNameBytes)}";
+        }
     }
 
     private async Task SalvarFatura()
@@ -50,5 +76,10 @@
         _context.Faturas.Update(fatura);
         await _context.SaveChangesAsync();
         Navigation.NavigateTo("/faturas");
+    }
+
+    private void Voltar()
+    {
+        // Navigation.NavigateTo("/faturas");
     }
 }
