@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0En1ihkJvlg3y551WXk3IpUJP7jXHC5DMZ1J37k0dy0=",
+  "Hash": "Ag+TCZE1+l1yRyuk3XjDIQO0K+0U0+7NefGeRa3TeLY=",
   "Source": "BlazorFatura",
   "BasePath": "_content/BlazorFatura",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorFatura\\wwwroot",
       "Source": "BlazorFatura",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorFatura.styles.css",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorFatura.styles.css",
       "SourceId": "BlazorFatura",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "BlazorFatura.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorFatura.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorFatura.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorFatura.bundle.scp.css",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorFatura.bundle.scp.css",
       "SourceId": "BlazorFatura",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "BlazorFatura.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorFatura.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorFatura.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\css\\site.css",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\favicon.ico",
       "SourceId": "BlazorFatura",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thiago Marcelino\\source\\gitRepos\\BlazorFaturas\\BlazorFatura\\wwwroot\\",
       "BasePath": "_content/BlazorFatura",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
