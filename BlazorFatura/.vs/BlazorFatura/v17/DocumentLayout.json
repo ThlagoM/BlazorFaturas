@@ -1,0 +1,254 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\services\\xmlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\services\\xmlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\importarfaturas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\importarfaturas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\models\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\faturas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\faturas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\editarfatura.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\editarfatura.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|c:\\users\\thiago marcelino\\source\\repos\\blazorfatura\\blazorfatura\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{901DBE1E-F201-4AA6-A437-30BB9AE0D1BA}|BlazorFatura\\BlazorFatura.csproj|solutionrelative:blazorfatura\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImportarFaturas.razor",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\ImportarFaturas.razor",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\ImportarFaturas.razor",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\ImportarFaturas.razor",
+              "RelativeToolTip": "BlazorFatura\\Pages\\ImportarFaturas.razor",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T08:25:05.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XmlService.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Services\\XmlService.cs",
+              "RelativeDocumentMoniker": "BlazorFatura\\Services\\XmlService.cs",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Services\\XmlService.cs",
+              "RelativeToolTip": "BlazorFatura\\Services\\XmlService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAtwBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:24:32.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Configuration\\AppSettings.cs",
+              "RelativeDocumentMoniker": "BlazorFatura\\Configuration\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Configuration\\AppSettings.cs",
+              "RelativeToolTip": "BlazorFatura\\Configuration\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:27:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorFatura\\appsettings.json",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\appsettings.json",
+              "RelativeToolTip": "BlazorFatura\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-05T07:16:06.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorFatura\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlazorFatura\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:20:42.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fatura.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Models\\Fatura.cs",
+              "RelativeDocumentMoniker": "BlazorFatura\\Models\\Fatura.cs",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Models\\Fatura.cs",
+              "RelativeToolTip": "BlazorFatura\\Models\\Fatura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:18:49.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Faturas.razor",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\Faturas.razor",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\Faturas.razor",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\Faturas.razor",
+              "RelativeToolTip": "BlazorFatura\\Pages\\Faturas.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T07:25:52.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorFatura\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T07:52:37.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorFatura\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "BlazorFatura\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T08:30:12.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "BlazorFatura\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T07:53:09.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditarFatura.razor",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\EditarFatura.razor",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\EditarFatura.razor",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\EditarFatura.razor",
+              "RelativeToolTip": "BlazorFatura\\Pages\\EditarFatura.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T07:26:50.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "BlazorFatura\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "BlazorFatura\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-05T07:53:08.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorFatura\\Program.cs",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\Program.cs",
+              "RelativeToolTip": "BlazorFatura\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:16:14.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BlazorFatura\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Thiago Marcelino\\source\\repos\\BlazorFatura\\BlazorFatura\\appsettings.Development.json",
+              "RelativeToolTip": "BlazorFatura\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-05T07:16:37.196Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+﻿@page "/faturas"
+@using BlazorFatura.Data
+@using BlazorFatura.Models
+@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext _context
+@inject NavigationManager Navigation
+
+<h3>Faturas</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome Fornecedor</th>
+            <th>Número Fatura</th>
+            <th>Data Documento</th>
+            <th>Valor Total</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fatura in faturas)
+        {
+            <tr>
+                <td>@fatura.NomeFornecedor</td>
+                <td>@fatura.NumeroFatura</td>
+                <td>@fatura.DataDocumento.ToString("dd/MM/yyyy")</td>
+                <td>@fatura.ValorTotal.ToString("C")</td>
+                <td>
+                    <button @onclick="() => EditarFatura(fatura.idFatura)">Editar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Fatura> faturas = new List<Fatura>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        faturas = await _context.Faturas.Where(f => f.Ativo).ToListAsync();
+    }
+
+    private void EditarFatura(int id)
+    {
+        Navigation.NavigateTo($"/editarfatura/{id}");
+    }
+}

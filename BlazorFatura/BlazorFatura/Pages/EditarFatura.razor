@@ -1,0 +1,54 @@
+﻿@page "/editarfatura/{id:int}"
+@using BlazorFatura.Data
+@using BlazorFatura.Models
+@inject ApplicationDbContext _context
+@inject NavigationManager Navigation
+
+<h3>Editar Fatura</h3>
+
+<EditForm Model="fatura" OnValidSubmit="SalvarFatura">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Nome Fornecedor</label>
+        <InputText @bind-Value="fatura.NomeFornecedor" />
+    </div>
+    <div>
+        <label>Número Fatura</label>
+        <InputText @bind-Value="fatura.NumeroFatura" />
+    </div>
+    <div>
+        <label>Data Documento</label>
+        <InputDate @bind-Value="fatura.DataDocumento" />
+    </div>
+    <div>
+        <label>Valor Total</label>
+        <InputNumber @bind-Value="fatura.ValorTotal" />
+    </div>
+    <div>
+        <label>Ativo</label>
+        <InputCheckbox @bind-Value="fatura.Ativo" />
+    </div>
+
+    <button type="submit">Salvar</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private Fatura fatura = new Fatura();
+
+    protected override async Task OnInitializedAsync()
+    {
+        fatura = await _context.Faturas.FindAsync(id);
+    }
+
+    private async Task SalvarFatura()
+    {
+        _context.Faturas.Update(fatura);
+        await _context.SaveChangesAsync();
+        Navigation.NavigateTo("/faturas");
+    }
+}
